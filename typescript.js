@@ -6,6 +6,7 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   rules: {
-    'prettier/prettier': ['warn', require('./prettier')]
+    'prettier/prettier': ['warn', require('./prettier')],
+    '@typescript-eslint/explicit-module-boundary-types': ['off']
   }
 }
