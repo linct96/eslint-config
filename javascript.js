@@ -18,6 +18,7 @@ module.exports = {
     requireConfigFile: false // 强制使用babel parser
   },
   rules: {
-    'prettier/prettier': ['warn', require('./prettier')]
+    'prettier/prettier': ['warn', require('./prettier')],
+    'no-unused-vars': ['warn']
   }
 }
